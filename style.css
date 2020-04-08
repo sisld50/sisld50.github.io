@@ -1,0 +1,96 @@
+header {
+  position: relative;
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+#headerContainer {
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  left: 10%;
+}
+
+#myname {
+  font-family: 'Abril Fatface';
+  font-size: 35px;
+  margin-left: 45px;
+}
+
+#anakin {
+  font-family: 'Abril Fatface';
+  font-size: 50px;
+  margin-left: 35px;
+  margin-top: -20px;
+}
+
+img {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+}
+
+ul {
+  list-style-type: square;
+}
+
+li {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+blockquote {
+  font-family: 'Abril Fatface'; 
+  font-size: 35px;
+  background: #333333;
+  color: white;
+  width: 600px;;
+  margin-top: 0px;
+  line-height: 1.4em;
+  padding: 20px 20px;
+  position: absolut;
+}
+
+
+blockquote::before {
+  display: display;
+  content: "‘‘";
+  font-size: 100px;
+  position: relative;
+}
+
+h2 {
+   text-transform: uppercase;
+   font-family: 'Josefin Sans', sans-serif;  
+}
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0px; 
+}
+
+subtitle {
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+}
+
+hr {
+  border-top: 4px solid black;
+  width: 1000px; 
+}
+
+main {
+  width: 650px;
+  position: relative;
+  margin-left: 25%;
+  display: block;
+  font-size: 110%;
+}
